@@ -1,0 +1,28 @@
+# Environment variables & secrets (CRITICAL: Never commit these!)
+.env
+.env.*
+!.env.example
+config.py
+
+# Python & Virtual Environment
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Databases & Accounts
+*.db
+*.sqlite
+*.sqlite3
+accounts/*.zip
+accounts/*.rar
+accounts/*.tdata
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
